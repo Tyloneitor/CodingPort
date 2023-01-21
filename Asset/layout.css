@@ -1,10 +1,23 @@
-.heading {
-    background: left / cover src="./Users/tylerrod/Library/Mobile Documents/com~apple~CloudDocs/Desktop/IMG_3944.jpeg"
-    display: flex;
-    height: 150px
-    width: 225px
-    align-items: center;
-    justify-content: center;
-    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
-    color: #ff0083;
-    text-shadow: #000 2px 2px 0.2rem;
+.heading{
+  text-align: right;
+  color:aqua;
+  font-size: 230px;
+}
+
+
+
+
+
+.NavBar{
+
+  color: lightskyblue;
+  background-color: gray;
+  font-size: 20px; 
+  
+}
+#box-ADA{
+  width:1500px;
+  height: 1000px;
+  color:blue;
+  background-color: gray;
+}
