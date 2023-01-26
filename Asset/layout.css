@@ -1,56 +1,76 @@
 header {
   text-align: right;
-  color:#81BBD2;
-  font-size: 150%;
-  font-family: monaco;
+  color:#616161;
+  font-size: 40px;
 
 }
 body {
-  background-color: #6d6d73;
+  background-color: #424242;
 }
 h1 {
   text-align: center;
-  color: #81BBD2;
+  color: #2792B5;
+  text-shadow: 2px 2px 6px gray;
 }
 
 button {
-  list-style-type: none;
-  margin: 100;
-  padding: 100;
-  color:black;
-  background-color: white;
-  opacity: .6;
+  
+  width: 24.4%;
+  border-radius: 4px;
+  background-color: #424242;
+  color: white;
+  opacity: .5;
   display: inline;
 }
-img rounded-corners {
+span {
+  text-shadow: 2px 2px 6px gray;
+  text-align: center;
+  font-size: 25px;
+}
+#rounded-corners {
   border-radius: 70px;
 } 
-.chuck-norris {
-  background-image: url("./chuckimg.png");
+#me {
+  clear: left;
+}
+#hover {
   background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  height: 300px;
-  width: 500px;
-}
-.chuck-norris:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-  
-}
-  
-.NavBar{
+ 
+  display: inline flex;
+  color:black;
 
-  color: lightskyblue;
-  background-color: gray;
-  font-size: 20px; 
-  
+}
+h3{
+  color: white;
+
+}
+.chuck-norris{
+  background-image: url("./chuckimg.png");
+background-size: 100%;
+}
+.ada{
+  background-image: url("./adaimg.png");
+  background-size: 100%;
+  width: 45%;
+}
+
+Nav{
+  background-color: #424242;
+  font-size: 35px; 
 }
 .box {
-  display: flex;
-  flex: auto;
-  padding: 15px;
-  text-align: right;
-  color: lightblue;
-  background-color: gray;
-  border: 12px;
+  display: center;
+  flex: center;
+  text-align: center;
+  background-color: #424242;
+  height:fit-content;
+}
+#contact{
+  text-decoration: none;
+  color: white;
+}
+
+#contact:visited{
+  text-decoration: none;
+  color: white;
 }
